@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>DevBarber - Sua barbearia!</title>
+</head>
+<body>
+    <div class="bg-home">  
+        <header>
+            <nav class="header-content container">
+                <div class="header-icons" data-aos="fade-down">
+                    <a href="#">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+                </div>
+
+                <div class="header-logo" data-aos="fade-up" data-aos-de="300">
+                    <img
+                        data-aos="flip-up" data-aos-delay="300" data-aos-duration ="1000"
+                        src="assets/logo.svg" alt="Logo DevBarber"
+                    >
+                </div>
+
+                <div data-aos="fade-down">
+                    <a class="header-btn" href="https://api.whatsapp.com/send?phone=999999999&text=Quero%20agendar%20um%20atendimento!">
+                        Agendar horário</a>
+                </div>
+            </nav>
+            <main class="hero container" data-aos="fade-up" data-aos-delay = "300">
+                <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E DA SUA PERSONALIDADE</h1>
+                <P>Horário de funcionamento: 8:00 - 18:00</P>
+                <a href="https://api.whatsapp.com/send?phone=999999999&text=Quero%20agendar%20um%20atendimento!" class="button-contact" taget="_blank">
+                    Agendar horário
+                </a>
+            </main>
+        </header>
+    </div>
+
+    <section class="about">
+        <div class="container about-content">
+            <div data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets/images.svg" alt="Imagens sobre a barbearia"/>
+            </div>
+            <div 
+                data-aos="zoom-out-left" data-aos-delay="150"
+                class="about-description">
+                <h2>SOBRE A BARBEARIA</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quisquam, quis quos. Quisquam, quis quos. Quisquam, quis quos. 
+                    Quisquam, quis quos. Quisquam, quis quos. Quisquam, quis quos.
+                </p>
+                <p> Horário de funcionamento: <strong>8:00 - 18:00</strong></p>
+            </div>  
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container services-content">
+            <h2>Serviços</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <section class="services-list">
+            <div class="service" data-aos="fade-up" data-aos-delay="150">
+                <img src="assets/service1.png" alt="Corte de cabelo">
+                <div class="service-info">
+                    <strong>Corte de Cabelo</strong>
+                    <button>R$ 45,00</button>
+                </div>
+            </div>
+
+            <div class="service" data-aos="fade-up" data-aos-delay="250">
+                <img src="assets/service2.png" alt="Corte de cabelo">
+                <div class="service-info">
+                    <strong>Barba completa</strong>
+                    <button>R$ 40,00</button>
+                </div>
+            </div>
+
+            <div class="service" data-aos="fade-up" data-aos-delay="350" >
+                <img src="assets/service3.png" alt="Corte de cabelo">
+                <div class="service-info">
+                    <strong>Corte e barba</strong>
+                    <button>R$ 80,00</button>
+                </div>
+            </div>
+        </section>
+    </section>
+ 
+    <div class="services">
+        <h2>Venha conhecer</h2>
+    </div>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.8274388336454!2d-34.90724918980027!3d-8.119045591876596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f427968d6cb%3A0x34787df94f76a149!2sShopping%20Recife!5e0!3m2!1spt-BR!2sbr!4v1730599695333!5m2!1spt-BR!2sbr" 
+    width="100%" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer class="footer">
+        <div class="container footer-icons">
+            <a href="#">
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f fa-2x"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                    </a>
+        </div>
+        <div>
+            <img src="assets/logo.svg" alt="Logo DevBarber">
+        </div>
+        <p>Copyright 2024 | DevBarber - Todos os direitos reservados</p>
+    </footer>
+
+    <a 
+    data-aos="zoom-in-up" data-aos-delay="400"
+    href="https://api.whatsapp.com/send?phone=999999999&text=Quero%20agendar%20um%20atendimento!" class="btn-wpp" target="_blank">
+        <img src="assets/whatssapp.svg" alt="Enviar mensagem por whatsapp">
+        <span class="tooltip-text">Agende seu horário</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
