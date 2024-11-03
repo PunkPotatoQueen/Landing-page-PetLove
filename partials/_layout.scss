@@ -13,7 +13,7 @@
     content: "";
     display: block;
     position: absolute;
-    background-image: linear-gradient(to bottom, rgba(6,18,30,0.1), #06121e), url("../assets/bg.svg");
+    background-image: linear-gradient(to bottom, rgb(255, 250, 236, 0.4), $primary-normal), url("../assets/bg.png");
     left: 0;
     top: 0;
     width: 100%;
@@ -233,6 +233,10 @@
     padding: 54px 0;
     gap: 24px;
     text-align: center;
+
+    img{
+        width: 40%;
+    }
 }
 
 .footer-icons{
